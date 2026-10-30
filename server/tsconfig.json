@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "paths": {
+            "#/*": [
+                "./src/*"
+            ]
+        },
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "target": "ESNext",
+        "lib": [
+            "ESNext"
+        ],
+        "types": [
+            "node"
+        ],
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "noUncheckedIndexedAccess": true,
+        "exactOptionalPropertyTypes": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "sourceMap": true,
+        "declaration": true,
+        "moduleDetection": "force"
+    },
+    "include": [
+        "src/**/*",
+        "prisma/**/*.ts",
+        "prisma.config.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+    ]
+}
